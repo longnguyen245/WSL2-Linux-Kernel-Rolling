@@ -3,7 +3,7 @@ name: Stable Kernel CI
 on:
   push:
     tags:
-      - 'linux-wsl-stable-7.1.[0-9]+'
+      - 'linux-wsl-stable-7.1.*'
   pull_request:
     branches:
       - 'wsl-7.1-rolling'
