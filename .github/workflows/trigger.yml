@@ -13,7 +13,7 @@ run-name: Stable Release Build ${{ github.ref_name }}
 jobs:
   call-core-workflow:
     name: Stable Kernel Build
-    uses: Nevuly/excavator/.github/workflows/excavator.yml@master
+    uses: longnguyen245/excavator/.github/workflows/excavator.yml@master
     with:
       tag_name: ${{ github.ref_name }}
       build_type: stable
